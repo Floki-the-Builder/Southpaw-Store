@@ -3,10 +3,14 @@ import "./navbar.css";
 
 function Navbar(){
     return (
-    <div className="navbar"> 
-       <h1>Menu goes here</h1>
-    </div>
-    );
+       <nav className="nav">
+  <a className="nav-link active" aria-current="page" href="#">Home</a>
+  <a className="nav-link" href="#">Shop</a>
+  <a className="nav-link" href="#">About</a>
+  <a className="nav-link " href='#'>Contact</a>
+</nav>
+    
+    )
 }
 
 export default Navbar;

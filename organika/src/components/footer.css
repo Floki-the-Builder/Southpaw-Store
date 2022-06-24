@@ -2,3 +2,9 @@
     color: white;
     background-color: gray;
 }
+
+.navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
